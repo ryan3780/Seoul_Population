@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## 서울시 인구 자료
 
 서울 열린데이터 광장 -> 데이터셋 -> 서울시 인구밀도 (동별) 통계 자료 이용  
-# URL : https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do?tab=S
+  URL : https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do?tab=S
 
 ### `설계`
 
