@@ -28,12 +28,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 2. `npm && npx`사용 시 : npm install
 
-    ㄱ. npm install -g create-react app `원하는 명칭`
-    ㄴ. cd `원하는 명칭으로 생성된 디렉토리`
-    ㄷ. npm install --save bootstrap
-    ㄹ. npm install --save reactstrap react react-dom
-    ㅁ. npm install react-scroll
-    ㅂ. npm start
+    ㄱ. npm install -g create-react app `원하는 명칭`  
+    ㄴ. cd `원하는 명칭으로 생성된 디렉토리`  
+    ㄷ. npm install --save bootstrap  
+    ㄹ. npm install --save reactstrap react react-dom  
+    ㅁ. npm install react-scroll  
+    ㅂ. npm start  
 <br/>
 
 ### `가장 많이 고민하고 현재도 고민하는 것`
