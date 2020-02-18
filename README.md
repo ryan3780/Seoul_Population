@@ -4,7 +4,15 @@
 ## 서울시 인구 자료
 
 서울 열린데이터 광장 -> 데이터셋 -> 서울시 인구밀도 (동별) 통계 자료 이용  
-  URL : https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do?tab=S
+  URL : https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do?tab=S  
+<br/>
+
+### `기능`
+
+1. `input box`를 이용한 검색 기능
+2. `선택된 구`에 대항하는 `해당 동` 보여주는 기능
+3. 
+
 
 ### `설계`
 
@@ -13,6 +21,7 @@
 3. 통계 자료를 활용 할 수 있도록 `정규표현식`으로 객체를 원소로 가진 배열로 수정 후 `import`
 4. `react-strap` && `react-scroll`라이브러리로 디자인
 5. `React로 사고하기`와 `구글링`을 통해 컴포넌트 분리 및 필요 기능 코딩
+6. `React Hook`으로 리팩토링
 
 <br />
 
