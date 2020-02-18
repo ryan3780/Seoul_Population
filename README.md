@@ -1,68 +1,42 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 서울시 인구 자료
 
-In the project directory, you can run:
+서울 열린데이터 광장 -> 데이터셋 -> 서울시 인구밀도 (동별) 통계 자료 이용
+URL : https://data.seoul.go.kr/dataList/10584/S/2/datasetView.do?tab=S
 
-### `yarn start`
+### `설계`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. 디자인 계획
+2. 다운 받은 통계 자료를 .js 파일로 변환
+3. 통계 자료를 활용 할 수 있도록 `정규표현식`으로 객체를 원소로 가진 배열로 수정 후 `import`
+4. `react-strap` && `react-scroll`라이브러리로 디자인
+5. `React로 사고하기`와 `구글링`을 통해 컴포넌트 분리 및 필요 기능 코딩
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<br />
 
-### `yarn test`
+### `App 확인 방법`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. `yarn`사용 시 : yarn install
+    ㄱ. yarn create react-app `원하는 명칭`
+    ㄴ. cd `원하는 명칭으로 생성된 디렉토리`
+    ㄷ. yarn add install react-scroll
+    ㄹ. yarn add reactstrap react react-dom
+    ㅁ. yarn add bootstrap
+    ㅂ. yarn start
+<br/> 
 
-### `yarn build`
+2. `npm && npx`사용 시 : npm install
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ㄱ. npm install -g create-react app `원하는 명칭`
+    ㄴ. cd `원하는 명칭으로 생성된 디렉토리`
+    ㄷ. npm install --save bootstrap
+    ㄹ. npm install --save reactstrap react react-dom
+    ㅁ. npm install react-scroll
+    ㅂ. npm start
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### `가장 많이 고민하고 현재도 고민하는 것`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#### `Naming` 
+#### `Component Divide`
+#### `Void Duplicated Code`
