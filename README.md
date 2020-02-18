@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<img width="1274" alt="스크린샷 2020-02-18 오후 5 28 58" src="https://user-images.githubusercontent.com/45477679/74732019-a841b900-528c-11ea-8058-e1211f253fcd.png">
+
 ## 서울시 인구 자료
 
 서울 열린데이터 광장 -> 데이터셋 -> 서울시 인구밀도 (동별) 통계 자료 이용  
