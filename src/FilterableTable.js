@@ -200,11 +200,11 @@ function FilterableTable({ seoul_pops, label, filterGuText, filterDongText }) {
       <Col md={{ size: 7 }} style={{ textAlign: "center" }}>
         <Statistics
           populationsOfDong={populationsOfDong}
-          populationsOfDongLabel={populationsOfDongLabel}
-          populationsOfGuLabel={populationsOfGuLabel}
+          dongLabel={populationsOfDongLabel}
+          guLabel={populationsOfGuLabel}
           summaryOfGu={summaryOfGu}
-          selectedGu={selectedGu}
-          choosedDong={choosedDong}
+          gu={selectedGu}
+          dong={choosedDong}
         />
       </Col>
     </Row>
